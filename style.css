@@ -124,3 +124,16 @@ p {
     margin-right: 20px;
   }
 }
+
+@media only screen and (max-width: 390px) {
+  .logo-tile {
+    width: 274px;
+    height: 137px;
+  }
+
+  .content {
+    grid-template-columns: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
