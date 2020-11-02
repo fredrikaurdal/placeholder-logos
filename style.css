@@ -29,7 +29,7 @@ body {
   column-gap: 64px;
   row-gap: 64px;
   margin-top: 64px;
-  margin-bottom: 64px;
+  padding-bottom: 64px;
 }
 
 .logo-tile {
