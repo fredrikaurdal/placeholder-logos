@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 body {
   background-color: #ecf0f3;
@@ -76,7 +76,7 @@ p {
   color: #505050;
 }
 
-.button {
+.download-button {
   background-color: transparent;
   border: 2px solid;
   border-image-source: linear-gradient(45deg, #4fd1c5, #4299e1);
@@ -91,16 +91,38 @@ p {
   letter-spacing: 0.2px;
   font-weight: 500;
   cursor: pointer;
+  margin-bottom: 24px;
 }
 
-.button:hover {
+.download-button:hover {
   background-image: linear-gradient(to right, #4fd1c5, #4299e1);
   color: white;
 }
 
-.button:active {
-  background-image: linear-gradient(to right, #4fd1c5, #4299e1);
+.download-button:active {
   color: #145081;
+}
+
+.custom-button {
+  background-image: linear-gradient(to right, #292929, #424242);
+  color: #ffffff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-image: linear-gradient(to right, #252525, #3d3d3d);
+}
+
+.custom-button:active {
+  color: #ececec;
 }
 
 @media only screen and (max-width: 1500px) {
