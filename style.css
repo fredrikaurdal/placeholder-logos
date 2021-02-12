@@ -43,6 +43,10 @@ body {
   justify-content: center;
 }
 
+.intro p {
+  max-width: 456px;
+}
+
 h1 {
   font-weight: 300;
   font-size: 36px;
